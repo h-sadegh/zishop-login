@@ -1,5 +1,5 @@
 {
-  "name": "zishop.login",
+  "name": "zishop-login",
   "version": "0.1.0",
   "author": "Hamidreza Sadegh",
   "description": "🐻 Login Interface for peyvand projects",
@@ -7,7 +7,7 @@
   "main": "./index.tsx",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/h-sadegh/zishop.login.git"
+    "url": "git+https://github.com/h-sadegh/zishop-login.git"
   },
   "license": "MIT",
   "dependencies": {
