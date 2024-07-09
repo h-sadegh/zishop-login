@@ -1,0 +1,16 @@
+.privacy_policy_text {
+  color: var(--Gray-04, #8e8e8e);
+  text-align: center;
+  font-size: var(--Font-Size-XS, 10px);
+  font-style: normal;
+  font-weight: 300;
+  line-height: var(--Font-Size-L, 16px);
+  display: inline-block;
+  margin-bottom: var(--Space-XS, 8px);
+}
+
+.link_text {
+  color: var(--Main-Primary-Active, #F06400);
+  font-weight: 700;
+  margin: 0 4px;
+}

@@ -1,0 +1,20 @@
+export type SellersType = {
+  id: number;
+  logo?: string;
+  logo_path?: string;
+  name?: string;
+  subtitle?: string;
+  description?: string;
+  cover?: string;
+  seo_enabled?: boolean;
+  explore_enabled?: boolean;
+  torob_enabled?: boolean;
+  status?: number;
+  categories?: number[];
+  seller_type?: number;
+  website?: string;
+  instagram?: string;
+  is_store?: boolean;
+  about_us?: string;
+  terms_of_service?: string;
+};

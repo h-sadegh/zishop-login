@@ -1,0 +1,122 @@
+.input_container {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  position: relative;
+}
+
+.clear_button {
+  all: unset;
+  cursor: pointer;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.label {
+  color: var(--Gray-05, #747474);
+  text-align: right;
+  font-size: var(--Font-Size-S, 12px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--Font-Size-S, 12px);
+  margin-bottom: var(--Space-XXS, 4px);
+}
+
+.label_required::after {
+  /*content: url("/static/svg/required.svg");*/
+  width: 10px;
+  height: 10px;
+  vertical-align: middle;
+  margin-right: var(--Space-XXS, 4px);
+}
+
+.input {
+  width: 100% !important;
+  height: 44px;
+  min-height: 44px;
+  position: relative;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 8px;
+  color: var(--Gray-10, #282828);
+  font-size: var(--Font-Size-M, 14px);
+  line-height: var(--Font-Size-M, 14px);
+  background: var(--Main-White, #fff);
+  border: 1px solid var(--Gray-03, #c4c4c4);
+  padding: var(--Space-XL, 14px) var(--Long-Input-padding, 16px);
+}
+
+.disabled {
+  opacity: 0.3;
+}
+
+.input:hover {
+  opacity: 1;
+  color: #000;
+}
+
+.input::placeholder {
+  color: var(--Gray-03, #c4c4c4);
+  text-align: right;
+  font-size: var(--Font-Size-M, 14px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: var(--Font-Size-M, 14px);
+}
+
+.input::-webkit-input-placeholder {
+  text-align: right !important;
+}
+
+.input:focus {
+  border: 1px solid var(--Main-Primary-Active, #f06400);
+  background: var(--Main-White, #fff);
+  box-shadow: 0px 0px 0px 3px rgba(240, 100, 0, 0.3);
+}
+
+.input_left {
+  direction: ltr !important;
+  text-align: left !important;
+}
+
+.input_left::placeholder {
+  text-align: left !important ;
+  direction: rtl !important;
+}
+
+.input_right {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+.input_right::placeholder {
+  text-align: right !important ;
+  direction: ltr !important;
+}
+
+.input_error {
+  border: 1px solid var(--Danger-Bold, #ff3b30);
+}
+
+.subtext {
+  color: var(--Gray-03, #c4c4c4);
+  text-align: right;
+  font-size: var(--Font-Size-XS, 10px);
+  font-style: normal;
+  font-weight: 300;
+  line-height: var(--Font-Size-XS, 10px);
+  margin-top: var(--Space-XXS, 4px);
+}
+
+.text_error {
+  color: var(--Danger-Bold, #ff3b30);
+}
+
+.error_icon::before {
+  /*content: url("/static/svg/danger.svg");*/
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+  margin-left: var(--Space-XXS, 4px);
+}

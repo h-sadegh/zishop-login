@@ -1,0 +1,31 @@
+.container {
+    /* height: calc(100% - var(--Hight-Bottom-Navigation) - var(--Hight-Header)); */
+    /* min-height: calc(100% - var(--Hight-Bottom-Navigation) - var(--Hight-Header)); */
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    /* margin-top: calc(var(--Space-4XL, 20px) + 77px - 18px); */
+    overflow-y: auto;
+    height: calc(100vh - 132px);
+    padding: 36px 18px 20px;
+    margin: 0px -18px;
+  }
+  
+  .login_signup {
+    color: var(--Gray-10, #282828);
+    text-align: center;
+    font-size: var(--Font-Size-H4, 20px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: var(--Font-Size-2XL, 20px);
+    margin-bottom: var(--Grid-Margin, 8px);
+  }
+  
+  .form_container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--Grid-Margin, 18px);
+    margin-bottom: var(--Space-2XL, 16px);
+  }
+  

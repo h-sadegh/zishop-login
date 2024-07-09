@@ -1,0 +1,31 @@
+
+.e_lnL2L4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+.e_lnL2L6 {
+  display: flex;
+  padding: 18px;
+}
+.e_lnL2L7 {
+  height: 0;
+  border: 1px solid #ccc;
+}
+
+
+.e_lnL2L8 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: var(--max-Width);
+  margin: 0 auto;
+
+}

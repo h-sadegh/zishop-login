@@ -1,0 +1,18 @@
+.zilink_system {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.zilink_system_text {
+  color: var(--Gray-10, #282828);
+  text-align: center;
+  font-size: var(--Font-Size-S, 12px);
+  font-style: normal;
+  font-weight: 500;
+  margin: 0px 0px 0px 4px;
+}
+
+

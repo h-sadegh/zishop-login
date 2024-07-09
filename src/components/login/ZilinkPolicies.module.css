@@ -1,0 +1,27 @@
+.zilink_system_details_header {
+    padding: 24px 18px;
+    border-bottom: 1px solid #d3d3d3;
+  }
+  
+  .zilink_system_details_content {
+    padding: 18px;
+  }
+  
+  .zilink_system_details_text {
+    color: var(--Gray-10, #282828);
+    text-align: justify;
+    font-size: var(--Font-Size-M, 14px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--Font-Size-2XL, 20px);
+  }
+  
+  .zilink_system_details_header_text {
+    color: var(--Gray-10, #282828);
+    text-align: right;
+    font-size: var(--Font-Size-L, 16px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: var(--Font-Size-L, 16px); /* 100% */
+    margin-right: 8px;
+  }
