@@ -1,7 +1,15 @@
 {
-  "name": "shop-login",
+  "name": "zishop.login",
   "version": "0.1.0",
-  "private": true,
+  "author": "Hamidreza Sadegh",
+  "description": "🐻 Login Interface for peyvand projects",
+  "private": false,
+  "main": "./index.tsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h-sadegh/zishop.login.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -27,6 +35,10 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "prettier": "^3.3.2"
+  },
+  "peerDependencies": {
+    "@types/react": ">=18.3.3",
+    "react": ">=18.3.1"
   },
   "scripts": {
     "start": "react-scripts start",
